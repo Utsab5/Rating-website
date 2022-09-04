@@ -18,5 +18,5 @@ Live link of the website=><a href="https://rating-website1.netlify.app" alt="">c
 <li>JS</li>
 </ul>
 
-# Deployment
+# Deployment 🛠️
 For the deployment of this project, I have used Netlify. 
