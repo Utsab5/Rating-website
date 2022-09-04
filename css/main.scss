@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+body {
+    background: #141519;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    width:100%;
+    margin-top: 9em;
+
+}
+div.container {
+    background: #1F2630;
+    
+    padding: 1.2em;
+    width:17em;
+    border-radius: 1em;    
+    margin: auto;
+    
+    // width: 60%;
+    
+    padding: 20px;
+    img {
+        border:none;
+        padding: .8em;
+        border-radius: 3em;
+        width:.9em;
+        margin-top:2%;
+        margin-left: 2%;
+        background-color: #262F38;
+    }
+    h2 {
+        color:white;
+        font-weight: normal;
+        margin-bottom: 0em;
+        margin-top: .2em;
+
+    }
+    p {
+        color: rgb(154, 154, 154);
+        font-weight:500;
+        font-size:.8em;
+        margin-bottom: 1.5em;
+        padding:0 5px;
+    }
+    .one,.two,.three,.four,.five {
+        background-color: #262F38;
+        justify-content: center;
+        width:3.1em;
+        height:3.1em;
+        color: rgb(154, 154, 154);
+        border:none;
+        padding: .8em;
+        border-radius: 3em;
+        font-weight: 600;
+        margin:1em .3em;
+        cursor:pointer;
+
+        // display:flex;
+    }
+
+    .one:hover {
+
+        background: #fc741370;
+    }
+    .two:hover {
+
+        background: #fc741370;
+    }
+    .three:hover {
+
+        background: #fc741370;
+    }
+    .four:hover {
+
+        background: #fc741370;
+    }
+    .five:hover {
+
+        background: #fc741370;
+    }
+    .one:focus {
+
+        background: #FC7613;
+        color:white;
+    }
+    .two:focus {
+
+        background: #FC7613;
+        color:white;
+    }
+    .three:focus {
+
+        background: #FC7613;
+        color:white;
+    }
+    .four:focus {
+
+        background: #FC7613;
+        color:white;
+    }
+    .five:focus {
+
+        background: #FC7613;
+        color:white;
+    }
+    .submit {        
+        
+        margin:0.8em auto;
+        border: none;
+        border-radius: 3em;
+        
+        display: block;
+        background: #FC7613;
+        color:white;
+        
+        padding: 1.3em 8em;
+        font-weight: 550;
+        letter-spacing: 3px;
+        font-size: .75em;
+        cursor: not-allowed;
+        opacity:60%;
+    }
+}

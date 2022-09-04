@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+body {
+  background: #141519;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 9em;
+}
+
+div.container {
+  background: #1F2630;
+  padding: 1.2em;
+  width: 17em;
+  border-radius: 1em;
+  margin: auto;
+  padding: 20px;
+}
+div.container img {
+  border: none;
+  padding: 0.8em;
+  border-radius: 3em;
+  width: 0.9em;
+  margin-top: 2%;
+  margin-left: 2%;
+  background-color: #262F38;
+}
+div.container h2 {
+  color: white;
+  font-weight: normal;
+  margin-bottom: 0em;
+  margin-top: 0.2em;
+}
+div.container p {
+  color: rgb(154, 154, 154);
+  font-weight: 500;
+  font-size: 0.8em;
+  margin-bottom: 1.5em;
+  padding: 0 5px;
+}
+div.container .one, div.container .two, div.container .three, div.container .four, div.container .five {
+  background-color: #262F38;
+  justify-content: center;
+  width: 3.1em;
+  height: 3.1em;
+  color: rgb(154, 154, 154);
+  border: none;
+  padding: 0.8em;
+  border-radius: 3em;
+  font-weight: 600;
+  margin: 1em 0.3em;
+  cursor: pointer;
+}
+div.container .one:hover {
+  background: rgba(252, 116, 19, 0.4392156863);
+}
+div.container .two:hover {
+  background: rgba(252, 116, 19, 0.4392156863);
+}
+div.container .three:hover {
+  background: rgba(252, 116, 19, 0.4392156863);
+}
+div.container .four:hover {
+  background: rgba(252, 116, 19, 0.4392156863);
+}
+div.container .five:hover {
+  background: rgba(252, 116, 19, 0.4392156863);
+}
+div.container .one:focus {
+  background: #FC7613;
+  color: white;
+}
+div.container .two:focus {
+  background: #FC7613;
+  color: white;
+}
+div.container .three:focus {
+  background: #FC7613;
+  color: white;
+}
+div.container .four:focus {
+  background: #FC7613;
+  color: white;
+}
+div.container .five:focus {
+  background: #FC7613;
+  color: white;
+}
+div.container .submit {
+  margin: 0.8em auto;
+  border: none;
+  border-radius: 3em;
+  display: block;
+  background: #FC7613;
+  color: white;
+  padding: 1.3em 8em;
+  font-weight: 550;
+  letter-spacing: 3px;
+  font-size: 0.75em;
+  cursor: not-allowed;
+  opacity: 60%;
+}/*# sourceMappingURL=main.css.map */
